@@ -1,10 +1,9 @@
 import React from 'react';
-import profilePic from '../../assets/img/chris.jpg'
+import profilePic from '../../assets/img/chris.JPG'
 
 function About() {
   return (
     <section className="about-wrapper">
-
       <div className="left-wrapper">
         <img src={profilePic} alt="my face" class="border-radius shadow"></img>
       </div>
