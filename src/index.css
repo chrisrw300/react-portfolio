@@ -4,6 +4,13 @@ body {
   background: #EDEDE8;
 }
 
+.shadow {
+  box-shadow: 0 0 20px grey;
+}
+.border-radius {
+  border-radius: 5px;
+}
+
 /*nav component*/
 header {
   display: flex;
@@ -38,3 +45,27 @@ header {
 }
 
 /*about component*/
+.about-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+}
+.left-wrapper {
+  flex: 25%;
+  margin: 25px;
+}
+.left-wrapper img {
+  width: 100%;
+}
+.right-wrapper {
+  flex: 50%;
+  margin: 0 25px;
+  padding: 5px;
+}
+.about-bio {
+  font-size: 20px;
+  text-align: justify;
+}
+.about-bio p {
+  padding: 20px;
+}
