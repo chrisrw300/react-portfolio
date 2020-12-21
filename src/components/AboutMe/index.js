@@ -1,14 +1,13 @@
-import React from 'react';
-import profilePic from '../../assets/img/chris.JPG'
+import React from "react";
+import profilePic from "../../assets/img/chris.JPG";
 
-function About() {
-  return (
-    <section className="about-wrapper">
-      <div className="left-wrapper">
-        <img src={profilePic} alt="my face" class="border-radius shadow"></img>
-      </div>
-      
-      <div className="right-wrapper">
+const AboutMe = () => (
+  <section className="about-wrapper">
+    <div className="left-wrapper">
+      <img src={profilePic} alt="my face" class="border-radius shadow"></img>
+    </div>
+  
+    <div className="right-wrapper">
         <div class="about-bio shadow border-radius">
           <p>
             I'm a student of the University of Arizona Fullstack Developer bootcamp. 
@@ -19,8 +18,7 @@ function About() {
           </p>
         </div>
       </div>
-    </section>
-  );
-}
+  </section>
+);
 
-export default About;
+export default AboutMe;

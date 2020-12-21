@@ -1,16 +1,10 @@
-import React from 'react';
+import React from "react";
 
-
-function Footer() {
-    return(
-        <section>
-            <footer>
-                <span>LinkedIn</span>
-                <span>GitHub</span>
-                <span>Email</span>
-            </footer>
-        </section>
-    )
-}
+const Footer = () => (
+  <footer>
+    <a href="https://www.linkedin.com/in/christopher-walston-a18614175/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+    <a href="https://github.com/chrisrw300" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+  </footer>
+);
 
 export default Footer;
