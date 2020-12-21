@@ -33,14 +33,14 @@ localhost:3000
 Christopher Walston
 
 ## Links:
-Deployed Application: 
-```
-https://chrisrw300.github.io/react-portfolio/
-```
 Github Repository: 
-```
+<br>
 https://github.com/chrisrw300/react-portfolio
-```
+<br>
+Deployed Application: 
+<br>
+https://chrisrw300.github.io/react-portfolio/
+
 
 ## Screenshots:
 
