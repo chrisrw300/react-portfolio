@@ -20,12 +20,15 @@ header {
   align-items: center;
   justify-content: center;
   background: black;
-  color: #66A182;
 }
 .nav-header {
   padding: 5px 10px;
   margin: 0 10px;
   font-size: 45px;
+}
+.nav-header a {
+  color: #66A182;
+  text-decoration: none;
 }
 .nav-wrapper {
   padding: 5px;
@@ -34,16 +37,20 @@ header {
   margin: 0 5px;
   padding: 0;
 }
+.link-wrapper li {
+  display: inline;
+}
 .link {
   margin: 0 5px;
   padding: 5px;
   text-decoration: none;
   color: white;
   font-size: 25px;
+  display: inline;
+  transition: 0.3s;
 }
 .link:hover {
   color: #66A182;
-  transition: 0.3s;
 }
 
 /*about component*/
@@ -64,7 +71,7 @@ header {
   margin: 0 25px;
 }
 .about-bio {
-  font-size: 20px;
+  font-size: 25px;
   text-align: justify;
 }
 .about-bio p {
@@ -110,6 +117,13 @@ form button {
 footer {
   text-align: center;
 }
-footer span {
-  margin: 0 10px;
+footer a {
+  margin: 0 20px;
+  font-size: 35px;
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
+footer a:hover {
+  color: #66A182;
 }

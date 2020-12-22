@@ -8,8 +8,11 @@ function Nav(props) {
       <ul className="link-wrapper">
       {navTabs.map(tab => (
         <li key={tab}>
-          <a href={'#' + tab.toLowerCase()} onClick={() => props.handlePageChange(tab)} className="link">
-            {tab}
+          <a 
+            href={'#' + tab.toLowerCase()} 
+            onClick={() => props.handlePageChange(tab)} 
+            className="link">
+              {tab}
           </a>
         </li>
       ))}

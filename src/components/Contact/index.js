@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function ContactForm() {
+const ContactForm = () => {
   
   return (
     <section>

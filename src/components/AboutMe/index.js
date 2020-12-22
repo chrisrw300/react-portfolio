@@ -1,5 +1,5 @@
 import React from "react";
-import profilePic from "../../assets/img/chris.JPG";
+import profilePic from "../../assets/img/chris.jpg";
 
 const AboutMe = () => (
   <section className="about-wrapper">

@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
 import AboutMe from './components/AboutMe'
-import Portfolio from './components/Portfolio';
-import ContactForm from './components/ContactForm'
-import Resume from './components/Resume'
+// import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
+import Resume from './components/Resume';
 import Footer from './components/Footer';
 
 
@@ -14,10 +14,10 @@ function App() {
     switch (currentPage) {
       case 'About Me':
         return <AboutMe/>;
-      case 'Portfolio':
-        return <Portfolio/>;
-      case 'ContactForm':
-        return <ContactForm/>;
+      // case 'Portfolio':
+      //   return <Portfolio/>;
+      case 'Contact':
+        return <Contact/>;
         case 'Resume':
           return <Resume/>;
       default:
@@ -29,9 +29,9 @@ function App() {
     <main>
       <Header currentPage={currentPage} handlePageChange={handlePageChange}></Header>
 
-      <div>{pageRender(currentPage)}</div>
+      <section>{pageRender(currentPage)}</section>
       
-      <div><Footer/></div>
+      <section><Footer/></section>
     </main>
   );
 }
