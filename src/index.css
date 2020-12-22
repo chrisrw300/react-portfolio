@@ -113,11 +113,77 @@ form button {
   color: #66A182;
 }
 
+/*resume component*/
+.resume-dwnld {
+  margin: 50px 0 50px 0;
+  text-align: center;
+}
+.dwnld-btn {
+  padding: 10px 25px;
+  border: thin solid black;
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
+.dwnld-btn:hover {
+  border: thin solid #66A182;
+  background: #66A182;
+  color: white;
+}
+.res-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+.left-res {
+  flex: 40%;
+  margin: 0 25px;
+  border: thin solid black;
+}
+.front-wrapper {
+  display: flex;
+}
+.front-lang {
+  flex: 50%;
+}
+.front-frame {
+  flex: 50%;
+}
+.right-res {
+  flex: 40%;
+  margin: 0 25px;
+  border: thin solid black;
+}
+.res-title {
+  background: black;
+  margin: 0;
+  padding: 25px 0;
+  color: #66A182;
+  font-size: 20px;
+}
+.res-category {
+  margin: 15px auto;
+  padding: 5px;
+  font-size: 20px;
+  border-bottom: thin solid #66A182;
+  width: 50%;
+}
+.res-list {
+  list-style: none;
+  padding: 0;
+}
+.res-list li {
+  margin: 15px 0;
+}
+
 /*footer component*/
 footer {
   text-align: center;
 }
 footer a {
+  bottom: 0;
   margin: 0 20px;
   font-size: 35px;
   text-decoration: none;
