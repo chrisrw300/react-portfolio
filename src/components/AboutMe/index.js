@@ -2,7 +2,9 @@ import React from "react";
 import profilePic from "../../assets/img/chris.jpg";
 
 const AboutMe = () => (
-  <section className="about-wrapper">
+  <section>
+    <h2 className="page-title">About Me</h2>
+    <div className="about-wrapper">
     <div className="left-wrapper">
       <img src={profilePic} alt="my face" class="border-radius shadow"></img>
     </div>
@@ -18,6 +20,8 @@ const AboutMe = () => (
           </p>
         </div>
       </div>
+    </div>
+    
   </section>
 );
 

@@ -1,8 +1,8 @@
 {
-  "homepage": "http://chrisrw300.github.io/react-portfolio",
   "name": "react-portfolio-chrisrw300",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://chrisrw300.github.io/react-portfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",

@@ -4,13 +4,18 @@ body {
   background: #f1faee;
   font-family: 'Poppins', sans-serif;
 }
+main {
+  font-family: 'Varela Round', sans-serif;
+}
 
 .border-radius {
   border-radius: 5px;
 }
 .page-title {
   font-size: 45px;
+  margin: 10px 0;
   text-align: center;
+  font-family: 'Poppins', sans-serif;
 }
 
 /*nav component*/
@@ -76,6 +81,60 @@ header {
 }
 .about-bio p {
   line-height: 2;
+}
+
+/*Portfolio*/
+.cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-wrapper {
+  position: relative;
+  flex: 15%;
+  margin: 15px 25px;
+  text-align: center;
+  box-shadow: 0 5px 10px grey;
+  background: white;
+  transition: 0.3s;
+  height: 50%;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.card-wrapper:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 15px grey;
+}
+
+.card-img img {
+  width: 100%;
+}
+.card-body {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.card-title {
+  font-size: 20px;
+  background: #66A182;
+  padding: 1px 0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.card-link {
+  background: black;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 10px 0;
+}
+.card-link a {
+  margin: 0 25px;
+  transition: 0.3s;
+  font-size: 20px;
+  padding: 10px 0;
+  color: white;
+}
+.card-link a:hover {
+  color: #66A182;
+  cursor: pointer;
 }
 
 /*Contact component*/
@@ -181,6 +240,7 @@ form button {
 /*footer component*/
 footer {
   text-align: center;
+  margin: 50px;
 }
 footer a {
   bottom: 0;
