@@ -114,13 +114,14 @@ header {
 }
 .card-title {
   font-size: 20px;
-  background: #66A182;
+  background: black;
   padding: 1px 0;
+  color: #66A182;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
 .card-link {
-  background: black;
+  background: white;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   padding: 10px 0;
@@ -130,7 +131,7 @@ header {
   transition: 0.3s;
   font-size: 20px;
   padding: 10px 0;
-  color: white;
+  color: black;
 }
 .card-link a:hover {
   color: #66A182;
@@ -139,7 +140,7 @@ header {
 
 /*Contact component*/
 .form-wrapper {
-  margin: 15px auto;
+  margin: 35px auto;
   width: 50%;
 }
 form {
@@ -150,12 +151,18 @@ form {
 label {
   text-align: left;
   margin: 5px;
+  font-size: 20px;
   width: 100%;
 }
 input {
   margin: 5px;
+  padding: 10px 0;
   width: 100%;
   border: thin solid black;
+}
+input[type="text"] {
+  font-size: 20px;
+  padding: 10px;
 }
 textarea {
   margin: 5px;
@@ -163,13 +170,26 @@ textarea {
   height: 100px;
   resize: none;
 }
+textarea[type=text] {
+  font-size: 15px;
+  padding: 10px;
+}
 form button {
-  width: 100%;
-  margin: 5px 10px;
-  padding: 5px 20px;
+  width: 50%;
+  margin: 5px auto;
+  padding: 10px 0;
   border: none; 
-  background: black;
-  color: #66A182;
+  background: #f1faee;
+  color: black;
+  font-size: 20px;
+  transition: 0.3s;
+  border: thin solid black;
+}
+form button:hover {
+  cursor: pointer;
+  background: #66A182;
+  border: thin solid #66A182;
+  color: white;
 }
 
 /*resume component*/
@@ -219,7 +239,7 @@ form button {
   background: black;
   margin: 0;
   padding: 25px 0;
-  color: #66A182;
+  color: #66a182;
   font-size: 20px;
 }
 .res-category {
@@ -240,10 +260,11 @@ form button {
 /*footer component*/
 footer {
   text-align: center;
-  margin: 50px;
+  width: 15%;
+  margin: 10px auto;
+  padding: 5px 0;
 }
 footer a {
-  bottom: 0;
   margin: 0 20px;
   font-size: 35px;
   text-decoration: none;
