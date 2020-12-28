@@ -114,11 +114,12 @@ header {
 }
 .card-title {
   font-size: 20px;
-  background: black;
+  background: white;
   padding: 1px 0;
-  color: #66A182;
+  color: black;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+  border-bottom: thin  solid #66A182;
 }
 .card-link {
   background: white;
@@ -163,6 +164,10 @@ input {
 input[type="text"] {
   font-size: 20px;
   padding: 10px;
+}
+input[type="text"]:focus {
+  outline: none;
+  border: thin solid #66A182;
 }
 textarea {
   margin: 5px;

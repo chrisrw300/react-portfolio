@@ -4,6 +4,7 @@ import portfolioFile from '../../assets/json/portfile.json';
 
 const Portfolio = () => {
     return (
+    
         <section>
             <h2 className="page-title">Portfolio</h2>
             <div className="cards-wrapper">
