@@ -1,51 +1,59 @@
 [
     {
         "id": 1,
+        "name": "Mamasita Empanadas",
+        "image": "https://raw.githubusercontent.com/Richardflores009/Mamasita-Empanadas/main/client/public/screenshot2.JPG",
+        "github": "https://github.com/Richardflores009/Mamasita-Empanadas",
+        "deployed": "https://mamasita-empanadas.herokuapp.com//"
+    },
+    {
+        "id": 2,
         "name": "Password Generator",
         "image": "https://user-images.githubusercontent.com/65309756/90303964-cb2dde00-de67-11ea-9bc8-1710c0bf2b60.png",
         "github": "https://github.com/chrisrw300/MyHaus",
         "deployed": "https://my-haus.herokuapp.com"
     },
     {
-        "id": 2,
+        "id": 3,
         "name": "Daily Scheduler",
         "image": "https://user-images.githubusercontent.com/65309756/91668071-4f19d400-eabe-11ea-9858-c37dbef8c9d8.png",
         "github": "https://github.com/chrisrw300/Munch-A-Movie",
         "deployed": "https://chrisrw300.github.io/Munch-A-Movie/"
     },
     {
-        "id": 3,
+        "id": 4,
         "name": "Readme Generator",
         "image": "https://user-images.githubusercontent.com/65309756/103018015-bb9f5f80-4501-11eb-96b3-72e1ee672cc3.png",
         "github": "https://github.com/chrisrw300/readme-generator",
         "deployed": "https://github.com/chrisrw300/readme-generator"
     },
     {
-        "id": 4,
+        "id": 5,
         "name": "Note Master",
         "image": "https://user-images.githubusercontent.com/65309756/95695828-8adfa780-0bed-11eb-84d9-5922a31b0cd8.png",
         "github": "https://github.com/chrisrw300/note-master-app",
         "deployed": "https://note-master-app.herokuapp.com/"
     },
     {
-        "id": 5,
+        "id": 6,
         "name": "Iterative Ideas",
         "image": "https://user-images.githubusercontent.com/65309756/97836580-d855ae80-1c99-11eb-865d-a15e51f5c77a.png",
         "github": "https://github.com/chrisrw300/iterative-ideas",
         "deployed": "https://iterative-ideas-blog.herokuapp.com/"
     },
     {
-        "id": 6,
+        "id": 7,
         "name": "Javascript Quiz",
         "image": "https://user-images.githubusercontent.com/65309756/100148729-5f8de080-2e5a-11eb-8635-0a75eff19459.gif",
         "github": "https://github.com/chrisrw300/javascript-quiz",
         "depoloyed": "https://chrisrw300.github.io/javascript-quiz/"
     },
     {
-        "id": 7,
+        "id": 8,
         "name": "Weather Dashboard",
         "image": "https://user-images.githubusercontent.com/65309756/92336962-d802b380-f05a-11ea-8e44-b5ae2d9dea64.png",
         "github": "https://github.com/chrisrw300/weather-dashboard",
         "deployed": "https://chrisrw300.github.io/weather-dashboard/"
     }
+    
 ]

@@ -37,6 +37,7 @@ header {
 }
 .nav-wrapper {
   padding: 5px;
+  text-align: right;
 }
 .link-wrapper {
   margin: 0 5px;

@@ -14,7 +14,7 @@ function PortCard(props) {
                 <div className="card-body">
                     <div className="card-link">
                         <a href={props.github} target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Repo</a>
-                        <a href={props.deployed} target="_blank"><i class="fa fa-television" aria-hidden="true"></i> Live</a>
+                        <a href={props.deployed} target="_blank" rel='noreferrer'><i class="fa fa-television" aria-hidden="true"></i> Live</a>
                     </div>
                 </div>
             </div>
