@@ -5,11 +5,11 @@ function PortCard(props) {
         
         <div className="card-wrapper">
             <div className="card border-radius">
-                <div className="card-title">
-                    <p>{props.name}</p>
-                </div>
                 <div className="card-img border-radius">
                     <img src={props.image} alt="portfolio image"/>
+                </div>
+                <div className="card-title">
+                    <p>{props.name}</p>
                 </div>
                 <div className="card-body">
                     <div className="card-link">

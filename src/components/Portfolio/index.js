@@ -14,6 +14,8 @@ const Portfolio = () => {
                     key={portfolio.key}
                     name={portfolio.name}
                     image={portfolio.image}
+                    github={portfolio.github}
+                    deployed={portfolio.deployed}
                 />
                 ))}
             </div>

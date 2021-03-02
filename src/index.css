@@ -1,16 +1,20 @@
+/* || Default */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
   padding: 0;
   background: #f1faee;
   font-family: 'Poppins', sans-serif;
 }
-main {
-  font-family: 'Varela Round', sans-serif;
-}
 
-.border-radius {
-  border-radius: 5px;
-}
+main {font-family: 'Varela Round', sans-serif;}
+
+.border-radius {border-radius: 5px;}
+
 .page-title {
   font-size: 45px;
   margin: 10px 0;
@@ -18,7 +22,7 @@ main {
   font-family: 'Poppins', sans-serif;
 }
 
-/*nav component*/
+/* || Nav Component */
 header {
   display: flex;
   flex-wrap: wrap;
@@ -26,26 +30,31 @@ header {
   justify-content: center;
   background: black;
 }
+
 .nav-header {
   padding: 5px 10px;
   margin: 0 10px;
   font-size: 45px;
 }
+
 .nav-header a {
   color: #66A182;
   text-decoration: none;
+  float: left;
 }
+
 .nav-wrapper {
   padding: 5px;
   text-align: right;
 }
+
 .link-wrapper {
   margin: 0 5px;
   padding: 0;
 }
-.link-wrapper li {
-  display: inline;
-}
+
+.link-wrapper li {display: inline;}
+
 .link {
   margin: 0 5px;
   padding: 5px;
@@ -55,43 +64,44 @@ header {
   display: inline;
   transition: 0.3s;
 }
-.link:hover {
-  color: #66A182;
-}
 
-/*about component*/
+.link:hover {color: #66A182;}
+
+/* || About Component */
 .about-wrapper {
   display: flex;
   flex-wrap: wrap;
   margin: 5px;
 }
+
 .left-wrapper {
   flex: 25%;
   margin: 25px;
 }
-.left-wrapper img {
-  width: 100%;
-}
+
+.left-wrapper img {width: 100%;}
+
 .right-wrapper {
   flex: 50%;
   margin: 0 25px;
 }
+
 .about-bio {
   font-size: 25px;
   text-align: justify;
 }
-.about-bio p {
-  line-height: 2;
-}
 
-/*Portfolio*/
+.about-bio p {line-height: 2;}
+
+/* || Portfolio */
 .cards-wrapper {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
+
 .card-wrapper {
   position: relative;
-  flex: 15%;
   margin: 15px 25px;
   text-align: center;
   box-shadow: 0 5px 10px grey;
@@ -101,85 +111,98 @@ header {
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
 }
+
 .card-wrapper:hover {
   transform: scale(1.03);
   box-shadow: 0 10px 15px grey;
 }
 
 .card-img img {
-  width: 100%;
+  object-fit: contain;
+  width: 400px;
+  height: 200px;
 }
+
 .card-body {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
+
 .card-title {
   font-size: 20px;
-  background: white;
   padding: 1px 0;
   color: black;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-bottom: thin  solid #66A182;
 }
+
 .card-link {
   background: white;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   padding: 10px 0;
 }
+
 .card-link a {
   margin: 0 25px;
   transition: 0.3s;
   font-size: 20px;
   padding: 10px 0;
   color: black;
+  text-decoration: none;
 }
+
 .card-link a:hover {
   color: #66A182;
   cursor: pointer;
 }
 
-/*Contact component*/
+/* || Contact Component */
 .form-wrapper {
   margin: 35px auto;
   width: 50%;
 }
+
 form {
   padding: 15px;
   display: flex;
   flex-direction: column;
 }
+
 label {
   text-align: left;
   margin: 5px;
   font-size: 20px;
   width: 100%;
 }
+
 input {
   margin: 5px;
   padding: 10px 0;
   width: 100%;
   border: thin solid black;
 }
+
 input[type="text"] {
   font-size: 20px;
   padding: 10px;
 }
+
 input[type="text"]:focus {
   outline: none;
   border: thin solid #66A182;
 }
+
 textarea {
   margin: 5px;
   width: 100%;
   height: 100px;
   resize: none;
 }
+
 textarea[type=text] {
   font-size: 15px;
   padding: 10px;
 }
+
 form button {
   width: 50%;
   margin: 5px auto;
@@ -191,6 +214,7 @@ form button {
   transition: 0.3s;
   border: thin solid black;
 }
+
 form button:hover {
   cursor: pointer;
   background: #66A182;
@@ -198,11 +222,12 @@ form button:hover {
   color: white;
 }
 
-/*resume component*/
+/* || Resume Component */
 .resume-dwnld {
   margin: 50px 0 50px 0;
   text-align: center;
 }
+
 .dwnld-btn {
   padding: 10px 25px;
   border: thin solid black;
@@ -210,11 +235,13 @@ form button:hover {
   color: black;
   transition: 0.3s;
 }
+
 .dwnld-btn:hover {
   border: thin solid #66A182;
   background: #66A182;
   color: white;
 }
+
 .res-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -222,25 +249,25 @@ form button:hover {
   padding: 0;
   margin: 0 0 20px 0;
 }
+
 .left-res {
   flex: 40%;
   margin: 0 25px;
   border: thin solid black;
 }
-.front-wrapper {
-  display: flex;
-}
-.front-lang {
-  flex: 50%;
-}
-.front-frame {
-  flex: 50%;
-}
+
+.front-wrapper {display: flex;}
+
+.front-lang {flex: 50%;}
+
+.front-frame {flex: 50%;}
+
 .right-res {
   flex: 40%;
   margin: 0 25px;
   border: thin solid black;
 }
+
 .res-title {
   background: black;
   margin: 0;
@@ -248,6 +275,7 @@ form button:hover {
   color: #66a182;
   font-size: 20px;
 }
+
 .res-category {
   margin: 15px auto;
   padding: 5px;
@@ -255,21 +283,22 @@ form button:hover {
   border-bottom: thin solid #66A182;
   width: 50%;
 }
+
 .res-list {
   list-style: none;
   padding: 0;
 }
-.res-list li {
-  margin: 15px 0;
-}
 
-/*footer component*/
+.res-list li {margin: 15px 0;}
+
+/* || Footer Component */
 footer {
   text-align: center;
   width: 15%;
   margin: 10px auto;
   padding: 5px 0;
 }
+
 footer a {
   margin: 0 20px;
   font-size: 35px;
@@ -277,6 +306,5 @@ footer a {
   color: black;
   transition: 0.3s;
 }
-footer a:hover {
-  color: #66A182;
-}
+
+footer a:hover {color: #66A182;}
