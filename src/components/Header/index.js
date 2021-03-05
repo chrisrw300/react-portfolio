@@ -4,11 +4,18 @@ import About from "../AboutMe"
 
 const Header = ({currentPage, handlePageChange}) => (
   <header>
-    <h2 className="nav-header">
-      <a href={<default/>}>Chris Walston</a>
-    </h2>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href={<About/>}>Chris Walston</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+      </div>
+    </nav>
     
-    <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+    
+    
   </header>
 );
 

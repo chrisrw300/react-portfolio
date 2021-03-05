@@ -3,22 +3,17 @@ import React from 'react';
 function PortCard(props) {
     return (
         
-        <div className="card-wrapper">
-            <div className="card border-radius">
-                <div className="card-img border-radius">
-                    <img src={props.image} alt="portfolio image"/>
-                </div>
-                <div className="card-title">
+        <div className="card col-4 shadow">
+            <div className="card">
+                <img src={props.image} alt="portfolio image"/>
+                <div className="card-body text-center">
                     <p>{props.name}</p>
-                </div>
-                <div className="card-body">
-                    <div className="card-link">
-                        <a href={props.github} target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Repo</a>
-                        <a href={props.deployed} target="_blank" rel='noreferrer'><i class="fa fa-television" aria-hidden="true"></i> Live</a>
-                    </div>
+                    <a href={props.github} target="_blank" class="btn"><i class="fa fa-github" aria-hidden="true"></i> Repo</a>
+                    <a href={props.deployed} target="_blank" rel='noreferrer' class="btn"><i class="fa fa-television" aria-hidden="true"></i> Live</a>
                 </div>
             </div>
         </div>
+        
     );
 }
 
