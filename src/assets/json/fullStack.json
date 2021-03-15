@@ -1,0 +1,13 @@
+[
+    {
+        "id": 1,
+        "name": "Mamasita Empanadas",
+        "image": "https://raw.githubusercontent.com/Richardflores009/Mamasita-Empanadas/main/client/public/screenshot2.JPG",
+        "github": "https://github.com/Richardflores009/Mamasita-Empanadas",
+        "deployed": "https://mamasita-empanadas.herokuapp.com//",
+        "code1": "port-icon devicon-mongodb-plain-wordmark colored",
+        "code2": "port-icon devicon-express-original-wordmark colored",
+        "code3": "port-icon devicon-react-plain-wordmark colored",
+        "code4": "port-icon devicon-nodejs-plain-wordmark colored" 
+    }
+]

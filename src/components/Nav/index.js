@@ -10,7 +10,7 @@ function Nav(props) {
         <li key={tab} className="nav-item">
           <a 
             href={'#' + tab.toLowerCase()} 
-            className="nav-link text-white">
+            className="nav-link">
               {tab}
           </a>
         </li>

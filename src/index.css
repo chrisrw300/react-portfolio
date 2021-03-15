@@ -7,6 +7,7 @@
 * {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 body {
@@ -42,10 +43,13 @@ header {
   background: var(--primary);
   color: white;
 }
+
 .navbar-brand {
   font-size: 2vw;
   margin: 0 0 0 35px;
 }
+
+.nav-link {color: white;}
 
 .navbar-nav {margin: 0 35px 0 0;}
 
@@ -84,6 +88,12 @@ header {
   background: var(--secondary);
 }
 
+.port-header {
+  text-align: center;
+  font-size: 2vw;
+  margin: 20px 0;
+}
+
 .card {
   border: none;
   background: white;
@@ -114,6 +124,23 @@ header {
 
 .btn:hover {
   color: var(--secondary);
+}
+
+.port-languages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.port-icon {
+  margin: 0 10px;
+  font-size: 4vw;
+  transition: 0.3s;
+}
+
+.port-icon:hover {
+  font-size: 4.5vw;
 }
 
 /* || Resume Component */
@@ -162,10 +189,6 @@ header {
   transition: 0.3s;
 }
 
-.icon:hover {
-  transform: scale(1.03);
-}
-
 /* || Contact Component */
 .form-wrapper {
   display: flex;
@@ -199,3 +222,121 @@ footer a {
 }
 
 footer a:hover {color: #66A182;}
+
+
+/* || Responsive */
+
+@media screen and (max-width:320px) {
+
+  .page-title {
+    font-size: 6vw;
+  }
+  .container-fluid {padding: 0;}
+
+  /* || Nav Component */
+  .navbar-brand {
+    font-size: 6vw;
+    margin: 0;
+    padding: 0 10px;
+  }
+
+  .navbar-nav {margin: 0;}
+
+  .nav-link {color: black;}
+
+  .navbar-collapse {
+    width: 100%;
+    background: var(--secondary);
+    margin: 0;
+    padding: 0 10px;
+  }
+
+  main {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+
+  /* || About Component */
+  .about-wrapper {
+    display: block;
+    padding: 0 10px;
+  }
+
+  .left-wrapper {margin: 0 5px;}
+
+  .left-wrapper img {
+    width: 75%;
+    display: block;
+    margin: auto;
+  }
+
+  .right-wrapper {margin: 20px 10px;}
+
+  .about-bio {font-size: 4vw;}
+
+  /* || Portfolio */
+  .card {
+    width: 75%;
+    margin: 10px auto;
+  }
+
+  .card:hover {transform: none;}
+
+  .card img {
+    object-fit: contain;
+    width: 100%;
+    height: auto
+  }
+
+  .row {display: block;}
+
+
+  /* || Resume Component */
+  #skills {
+    padding-bottom: 50px;
+  }
+  .resume-dwnld {
+    margin: 5px;
+    text-align: center;
+  }
+
+  .dwnld-btn {
+    border: none;
+    background: white;
+    color: black;
+    transition: 0.3s;
+  }
+
+  .dwnld-btn:hover {
+    border: none;
+    background: white;
+    color: black;
+  }
+
+  .icon-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .skill-header {
+    color: white;
+    border-bottom: thin solid white;
+    width: 20%;
+    text-align: center;
+    margin: 35px auto;
+  }
+
+  .icon {
+    font-size: 100px;
+    color: white;
+    margin: 35px;
+    transition: 0.3s;
+  }
+
+  .icon:hover {
+    transform: scale(1.03);
+  }
+}
