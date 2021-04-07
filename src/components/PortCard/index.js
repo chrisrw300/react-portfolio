@@ -4,7 +4,7 @@ function PortCard(props) {
     return (
         
         <div className="card col-4 shadow">
-            <div className="card">
+            <div>
                 <img src={props.image} alt="portfolio image"/>
                 <div className="card-body text-center">
                     <p>{props.name}</p>

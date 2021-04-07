@@ -83,6 +83,20 @@ header {
 
 .about-bio p {line-height: 2;}
 
+.resume-download {
+  text-decoration: none;
+  font-size: 1vw;
+  margin: 0 auto;
+  padding: 5px 15px;
+  color: black;
+  border-radius: 10px;
+  background: var(--secondary);
+}
+
+.resume-download:hover {
+  color: var(--primary)
+}
+
 /* || Portfolio */
 .resume-wrapper {
   background: var(--secondary);
@@ -144,6 +158,7 @@ header {
 }
 
 /* || Resume Component */
+
 #skills {
   background: var(--primary);
   padding-bottom: 125px;
@@ -205,14 +220,128 @@ footer a {
 
 footer a:hover {color: #66A182;}
 
-
 /* || Responsive */
 
 @media screen and (max-width:320px) {
 
-  .page-title {
+  .page-title {font-size: 6vw;
+  margin: 0;}
+
+  .container-fluid {padding: 0;}
+
+  .port-header {font-size: 5vw;}
+
+  svg, path {display: none;}
+
+
+  /* || Nav Component */
+  .navbar-brand {
     font-size: 6vw;
+    margin: 0;
+    padding: 0 10px;
   }
+
+  .navbar-nav {margin: 0;}
+
+  .nav-link {color: black;}
+
+  .navbar-collapse {
+    width: 100%;
+    background: var(--secondary);
+    margin: 0;
+    padding: 0 10px;
+  }
+
+  main {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+
+  /* || About Component */
+  .about-wrapper {
+    display: block;
+    padding: 0 10px;
+  }
+
+  .left-wrapper {margin: 0 5px;}
+
+  .left-wrapper img {
+    width: 75%;
+    display: block;
+    margin: auto;
+  }
+
+  .right-wrapper {margin: 20px 10px;}
+
+  .about-bio {font-size: 4vw;}
+
+  .resume-download {
+    font-size: 3vw;
+    margin: 0 70px;
+    padding: 5px 15px;
+    color: black;
+    border-radius: 10px;
+    background: var(--secondary);
+  }
+
+  /* || Portfolio */
+  .card {
+    width: 100%;
+    margin: 0;
+  }
+
+  .card:hover {transform: none;}
+
+  .card img {
+    object-fit: contain;
+    width: 100%;
+    height: auto
+  }
+
+  .card-body a {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  .row {display: block;}
+
+
+  /* || Resume Component */
+  #skills {
+    margin-top: 20px;
+  }
+
+  .icon-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .skill-header {
+    width: 100%;
+    font-size: 4vw;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .port-languages {padding: 0;}
+
+  .icon::before {
+    font-size: 6vw;
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+  }
+
+  .icon:hover {transform: none;}
+}
+
+@media screen and (max-width:375px) {
+  .page-title {font-size: 8vw;}
+
   .container-fluid {padding: 0;}
 
   /* || Nav Component */
@@ -316,9 +445,5 @@ footer a:hover {color: #66A182;}
     color: white;
     margin: 35px;
     transition: 0.3s;
-  }
-
-  .icon:hover {
-    transform: scale(1.03);
   }
 }
