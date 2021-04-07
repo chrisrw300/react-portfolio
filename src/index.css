@@ -148,24 +148,6 @@ header {
   background: var(--primary);
   padding-bottom: 125px;
 }
-.resume-dwnld {
-  margin: 50px 0 50px 0;
-  text-align: center;
-}
-
-.dwnld-btn {
-  padding: 10px 25px;
-  border: thin solid white;
-  text-decoration: none;
-  color: white;
-  transition: 0.3s;
-}
-
-.dwnld-btn:hover {
-  border: thin solid var(--primary);
-  background: white;
-  color: black;
-}
 
 .icon-wrapper {
   display: flex;

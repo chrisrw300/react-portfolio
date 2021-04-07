@@ -3,12 +3,8 @@ import Nav from "../Nav";
 
 const Skills = () => {
     return(
-    
         <section id="skills">
             <h2 className="page-title page-title-alt">Skills</h2>
-            <div className="resume-dwnld">
-                <a href="#" className="dwnld-btn border-radius">Download My Resume</a>
-            </div>
             <div className="container-fluid icon-wrapper">
                 <div>
                     <h4 className="skill-header">Front-End Skills</h4>
