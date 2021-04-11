@@ -104,8 +104,15 @@ header {
 
 .port-header {
   text-align: center;
-  font-size: 2vw;
-  margin: 20px 0;
+  font-size: 3vw;
+  margin-bottom: 30px;
+}
+
+.port-header-alt {
+  text-align: center;
+  font-size: 3vw;
+  margin-bottom: 30px;
+  color: var(--secondary)
 }
 
 .card {
@@ -131,30 +138,32 @@ header {
 
 .btn {
   background: var(--primary);
-  width: 47%;
-  margin: 5px;
+  width: 100%;
+  padding: 5px 15px;
+  margin: 5px auto;
+  border-radius: 0;
   color: white;
+}
+
+.port-btn {
+  display: block;
+  background: var(--primary);
+  padding: 5px 15px;
+  margin: 5px auto;
+  border-radius: 0;
+  width: 35%;
+  border: none;
+  color: white;
+  text-decoration: none;
 }
 
 .btn:hover {
   color: var(--secondary);
 }
 
-.port-languages {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 20px;
-}
-
-.port-icon {
-  margin: 0 10px;
-  font-size: 4vw;
-  transition: 0.3s;
-}
-
-.port-icon:hover {
-  font-size: 4.5vw;
+.fa-angle-down {
+  font-size: 2vw;
+  float: right;
 }
 
 /* || Resume Component */
@@ -162,13 +171,6 @@ header {
 #skills {
   background: var(--primary);
   padding-bottom: 125px;
-}
-
-.icon-wrapper {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
 }
 
 .skill-header {
@@ -179,42 +181,32 @@ header {
   margin: 35px auto;
 }
 
-.icon {
-  font-size: 100px;
-  color: white;
-  margin: 35px;
-  transition: 0.3s;
-}
-
-/* || Contact Component */
-.form-wrapper {
-  display: flex;
+.icon-wrapper {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
   justify-content: center;
-  margin: 35px auto;
-  width: 100%;
 }
 
-.LI-profile-badge {
+.icon {
+  font-size: 8vw;
+  color: white;
+  margin: 25px;
   transition: 0.3s;
-}
-
-.LI-profile-badge:hover {
-  transform: scale(1.03);
 }
 
 /* || Footer Component */
 footer {
   text-align: center;
-  background: var(--primary);
+  background: var(--secondary);
   width: 100%;
   padding: 5px 0;
 }
 
 footer a {
   margin: 0 20px;
-  font-size: 35px;
+  font-size: 3vw;
   text-decoration: none;
-  color: white;
+  color: var(--primary);
   transition: 0.3s;
 }
 
@@ -222,10 +214,12 @@ footer a:hover {color: #66A182;}
 
 /* || Responsive */
 
-@media screen and (max-width:320px) {
+@media screen and (max-width: 320px) {
 
-  .page-title {font-size: 6vw;
-  margin: 0;}
+  .page-title {
+    font-size: 6vw;
+    margin: 0;
+  }
 
   .container-fluid {padding: 0;}
 
@@ -286,6 +280,17 @@ footer a:hover {color: #66A182;}
   }
 
   /* || Portfolio */
+  .port-header {
+    font-size: 6.5vw;
+    margin: 15px 0;
+  }
+  
+  .port-header-alt {
+    font-size: 6.5vw;
+    margin: 15px 0;
+    color: var(--secondary)
+  }
+
   .card {
     width: 100%;
     margin: 0;
@@ -306,6 +311,16 @@ footer a:hover {color: #66A182;}
 
   .row {display: block;}
 
+  .port-btn {
+    padding: 5px 15px;
+    margin-top: 5px;
+    border-radius: 0;
+    width: 100%;
+  }
+
+  .fa-angle-down {
+    font-size: 6vw;
+  } 
 
   /* || Resume Component */
   #skills {
@@ -313,31 +328,31 @@ footer a:hover {color: #66A182;}
   }
 
   .icon-wrapper {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr auto auto auto;
+    margin: 0;
+    padding: 0;
   }
 
   .skill-header {
+    color: white;
+    border-bottom: thick solid black;
     width: 100%;
-    font-size: 4vw;
-    text-align: center;
     margin: 0;
     padding: 0;
+    display: none;
   }
-  
-  .port-languages {padding: 0;}
 
   .icon::before {
-    font-size: 6vw;
-    margin: 0;
-    padding: 0;
+    font-size: 10vw;
     transition: 0.3s;
   }
 
   .icon:hover {transform: none;}
 }
+
+/* || Footer */
+footer a {font-size: 5vw;}
 
 @media screen and (max-width:375px) {
   .page-title {font-size: 8vw;}
@@ -382,7 +397,7 @@ footer a:hover {color: #66A182;}
     margin: auto;
   }
 
-  .right-wrapper {margin: 20px 10px;}
+  .right-wrapper {margin: 40px 10px;}
 
   .about-bio {font-size: 4vw;}
 
@@ -443,7 +458,7 @@ footer a:hover {color: #66A182;}
   .icon {
     font-size: 100px;
     color: white;
-    margin: 35px;
+    margin: 10px;
     transition: 0.3s;
   }
 }
