@@ -215,7 +215,7 @@ footer a:hover {color: #66A182;}
 /* || Responsive */
 
 @media screen and (max-width: 320px) {
-
+  /* || Defaults */
   .page-title {
     font-size: 6vw;
     margin: 0;
@@ -349,10 +349,11 @@ footer a:hover {color: #66A182;}
   }
 
   .icon:hover {transform: none;}
-}
 
-/* || Footer */
-footer a {font-size: 5vw;}
+  /* || Footer */
+  footer a {font-size: 5vw;}
+
+}
 
 @media screen and (max-width:375px) {
   .page-title {font-size: 8vw;}
@@ -400,6 +401,16 @@ footer a {font-size: 5vw;}
   .right-wrapper {margin: 40px 10px;}
 
   .about-bio {font-size: 4vw;}
+
+  .resume-download {
+    font-size: 3vw;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .resume-download:hover {
+    color: var(--primary)
+  }
 
   /* || Portfolio */
   .card {
