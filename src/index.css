@@ -399,7 +399,10 @@ footer a:hover {color: #66A182;}
 
   .left-wrapper img {width: 75%;}
 
-  .right-wrapper {margin: 40px 15px;}
+  .right-wrapper {
+    margin: 40px 15px;
+    overflow: hidden;
+  }
 
   .about-bio {
     font-size: 4vw;

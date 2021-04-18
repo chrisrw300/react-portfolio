@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Nav(props) {
-  const navTabs = ['About', 'Portfolio', 'Skills', 'Contact' ];
+  const navTabs = ['Portfolio', 'Skills' ];
   
   return (
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
