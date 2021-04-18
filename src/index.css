@@ -360,6 +360,10 @@ footer a:hover {color: #66A182;}
 
   .container-fluid {padding: 0;}
 
+  .port-header {font-size: 5vw;}
+
+  .port-header-alt {font-size: 5vw;}
+
   /* || Nav Component */
   .navbar-brand {
     font-size: 6vw;
@@ -387,32 +391,35 @@ footer a:hover {color: #66A182;}
   /* || About Component */
   .about-wrapper {
     display: block;
-    padding: 0 10px;
+    padding: 0;
+    text-align: center;
   }
 
   .left-wrapper {margin: 0 5px;}
 
-  .left-wrapper img {
-    width: 75%;
-    display: block;
-    margin: auto;
+  .left-wrapper img {width: 75%;}
+
+  .right-wrapper {margin: 40px 15px;}
+
+  .about-bio {
+    font-size: 4vw;
   }
-
-  .right-wrapper {margin: 40px 10px;}
-
-  .about-bio {font-size: 4vw;}
 
   .resume-download {
     font-size: 3vw;
-    width: 100%;
     margin: 0 auto;
-  }
-  
-  .resume-download:hover {
-    color: var(--primary)
   }
 
   /* || Portfolio */
+  .port-btn {
+    padding: 5px 15px;
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 90%;
+  }
+
+  .fa-angle-down {font-size: 6vw;} 
+  
   .card {
     width: 75%;
     margin: 10px auto;
@@ -428,48 +435,32 @@ footer a:hover {color: #66A182;}
 
   .row {display: block;}
 
-
   /* || Resume Component */
   #skills {
-    padding-bottom: 50px;
-  }
-  .resume-dwnld {
-    margin: 5px;
+    padding: 5px;
     text-align: center;
   }
 
-  .dwnld-btn {
-    border: none;
-    background: white;
-    color: black;
-    transition: 0.3s;
-  }
-
-  .dwnld-btn:hover {
-    border: none;
-    background: white;
-    color: black;
-  }
-
   .icon-wrapper {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr auto auto auto;
   }
 
   .skill-header {
     color: white;
-    border-bottom: thin solid white;
-    width: 20%;
-    text-align: center;
-    margin: 35px auto;
+    font-size: 4vw;
+    width: 35%;
+    margin: 0 auto;
+    padding: 0;
   }
 
-  .icon {
-    font-size: 100px;
-    color: white;
-    margin: 10px;
-    transition: 0.3s;
+  .icon::before {
+    font-size: 10vw;
+    transition: none;
   }
+
+  .icon:hover {transform: none;}
+
+  /* || Footer */
+  footer a {font-size: 7vw;}
 }
