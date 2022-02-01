@@ -8,12 +8,11 @@ const Portfolio = () => {
     return (
         <section className="resume-wrapper" id="portfolio">
             <h2 className="port-header">Portfolio</h2>
+            <h3>Front End Projects</h3>
             <button class="port-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                 Front End Projects <i class="fa fa-angle-down" aria-hidden="true"></i>
             </button>
-            <div class="collapse" id="collapseExample">
-                <div className="container-fluid">
-                    <div className="row justify-content-center">
+            <div className="row justify-content-center">
                         {frontEnd.map(portfolio => (
                             <PortCard
                             id={portfolio.id}
@@ -25,8 +24,6 @@ const Portfolio = () => {
                         />
                         ))}
                     </div>
-                </div>
-            </div>
 
             <button class="port-btn" type="button" data-bs-toggle="collapse" data-bs-target="#backend" aria-expanded="false" aria-controls="collapseExample">
                 Back End Projects <i class="fa fa-angle-down" aria-hidden="true"></i>

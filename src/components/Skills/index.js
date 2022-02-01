@@ -3,7 +3,7 @@ import React from "react";
 const Skills = () => {
     return (
         <section id="skills">
-            <h2 className="port-header-alt">Skills</h2>
+            {/* <h2 className="port-header-alt">Skills</h2>
             <h4 className="skill-header">Front-End Skills</h4>
             <div className="container-fluid icon-wrapper">
                 <i className="icon devicon-html5-plain-wordmark"></i>
@@ -12,7 +12,7 @@ const Skills = () => {
                 <i className="icon devicon-react-original-wordmark"></i>
                 <i className="icon devicon-bootstrap-plain-wordmark"></i>
                 <i className="icon devicon-jquery-plain-wordmark"></i>
-            </div>
+            </div> */}
 
             {/* <div>
                 <h4 className="skill-header">Back-End Skills</h4>
@@ -24,7 +24,7 @@ const Skills = () => {
                 <i className="icon devicon-handlebars-plain-wordmark  "></i>
             </div> */}
 
-            <h4 className="skill-header">Technology Skills</h4>
+            {/* <h4 className="skill-header">Technology Skills</h4>
             <div className="container-fluid icon-wrapper">
                 <i className="icon devicon-git-plain-wordmark"></i>
                 <i className="icon devicon-heroku-original-wordmark"></i>
@@ -32,7 +32,7 @@ const Skills = () => {
                 <i className="icon devicon-visualstudio-plain-wordmark"></i>
                 <i className="icon devicon-apple-original"></i>
                 <i className="icon devicon-windows8-original"></i>
-            </div>
+            </div> */}
         </section>
     )
 }

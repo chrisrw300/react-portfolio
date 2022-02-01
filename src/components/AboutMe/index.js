@@ -4,7 +4,7 @@ import devRes from "../../assets/resume/walstondevresume.docx";
 
 const AboutMe = () => (
   <section id="about">
-    <div className="about-wrapper">
+    {/* <div className="about-wrapper">
       <div className="left-wrapper">
         <img src={profilePic} alt="my face"></img>
       </div>
@@ -19,7 +19,7 @@ const AboutMe = () => (
         </div>
         <a href={devRes} class="resume-download" download>Download My Resume</a>
       </div>
-    </div>
+    </div> */}
     
   </section>
 );
