@@ -18,20 +18,62 @@ body {
 
 nav {
   background: var(--primary);
-  width: 25%;
+  width: 30%;
   height: 100%;
   position: fixed;
+  text-align: center;
+  color: white;
 }
 
 nav img {
-  width: 50%;
-  margin: 0 auto;
+  width: 75%;
+  margin: 10px auto;
+  padding: 5px;
   border-radius: 50%;
+  border: thick dotted white;
+}
+
+nav h2 {
+  padding: 5px 0;
+  width: 100%;
+}
+
+.icons {
+  display: inline;
+  margin: 0 15px;
 }
 
 main {
-  margin-left: 25%;
+  margin-left: 30%;
   padding: 10px;
+  width: 70%;
+}
+
+.portfolio-wrapper h2 {
+  text-align: center;
+  padding: 5px 0;
+}
+
+.portfolio-wrapper h3 {
+  padding: 5px 0;
+  margin: 10px 0;
+}
+
+.cards-wrapper { 
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.cards {
+  margin: 10px;
+  width: 20%;
+  background: var(--primary);
+}
+
+.cards img {
   width: 100%;
-  background: grey;
+  padding: 5px;
+  object-fit: contain;
+  height: 100px;
 }

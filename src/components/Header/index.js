@@ -25,16 +25,16 @@ const Header = ({currentPage, handlePageChange}) => (
           <p>
             I am currently on the road to becoming a junior front end developer. 
             Please take some time and check out my portfolio work. 
-            Don't hesitate to contact me regarding questions and job openings.
+            Don't hesitate to contact me regarding questions or any job openings.
           </p>
         </li>
-        <li>
+        <li class="icons">
           <a href="https://www.linkedin.com/in/christopher-walston-a18614175/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
         </li>
-        <li>
+        <li class="icons">
           <a href="https://github.com/chrisrw300" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
         </li>
-        <li>
+        <li class="icons">
           <a href="mailto:chrisrw300@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
         </li>
 
