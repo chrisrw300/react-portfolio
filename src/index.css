@@ -49,6 +49,10 @@ main {
   width: 70%;
 }
 
+.portfolio-wrapper {
+  height: 100%;
+}
+
 .portfolio-wrapper h2 {
   text-align: center;
   padding: 5px 0;
@@ -57,18 +61,28 @@ main {
 .portfolio-wrapper h3 {
   padding: 5px 0;
   margin: 10px 0;
+  text-align: center;
+}
+
+.ps1, .ps2 {
+  width: 33.3%;
+  float: left;
+  border-right: thick dotted var(--primary);
+}
+
+.portfolio-section {
+  height: 100vh;
 }
 
 .cards-wrapper { 
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
 }
 
 .cards {
-  margin: 10px;
-  width: 20%;
+  margin: 15px auto;
+  width: 75%;
+  text-align: center;
   background: var(--primary);
+  border-radius: 5px;
 }
 
 .cards img {
