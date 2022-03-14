@@ -1,0 +1,87 @@
+[
+    {
+        "id": 1,
+        "name": "Run Buddy",
+        "image": "https://user-images.githubusercontent.com/65309756/156873666-fbf5c22b-2fa6-4129-86bb-e8d3fcb80a51.png",
+        "github": "https://github.com/chrisrw300/run-buddy",
+        "deployed": "'https://chrisrw300.github.io/run-buddy/index.html'"
+    },
+    {
+        "id": 2,
+        "name": "Three Little Pigs",
+        "image": "https://user-images.githubusercontent.com/65309756/156873718-c8336f6e-4be8-42f4-8ebb-1ed3d04e91ed.png",
+        "github": "https://github.com/chrisrw300/three-little-pigs",
+        "deployed": "https://chrisrw300.github.io/three-little-pigs/"
+    },
+    {
+        "id": 3,
+        "name": "Dice Roller",
+        "image": "https://user-images.githubusercontent.com/65309756/156873806-02be47b8-ecd3-4d59-ae53-9ac1ffbf681a.png",
+        "github": "https://github.com/chrisrw300/dice-roller",
+        "deployed": "https://chrisrw300.github.io/dice-roller/"
+    },
+    {
+        "id": 4,
+        "name": "Disney Night Randomizer",
+        "image": "https://user-images.githubusercontent.com/65309756/156873843-89485c98-07d4-4c80-bcd9-15b145fad767.png",
+        "github": "https://github.com/chrisrw300/activity-generator",
+        "deployed": "https://chrisrw300.github.io/activity-generator/"
+    },
+    {
+        "id": 5,
+        "name": "Password Generator",
+        "image": "https://user-images.githubusercontent.com/65309756/156873516-7fc15fea-9b78-46e1-960f-34ef7e2259cf.png",
+        "github": "https://github.com/chrisrw300/password-generator",
+        "deployed": "https://chrisrw300.github.io/password-generator/"
+    },
+    {
+        "id": 6,
+        "name": "Daily Scheduler",
+        "image": "https://user-images.githubusercontent.com/65309756/156873582-9e6ccab4-3af5-4c21-b99e-f05fa35e7b3a.png",
+        "github": "https://github.com/chrisrw300/daily-scheduler/",
+        "deployed": "https://chrisrw300.github.io/daily-scheduler/"
+    },
+    {
+        "id": 3,
+        "name": "Javascript Quiz",
+        "image": "https://user-images.githubusercontent.com/65309756/156873602-eee913de-6f6c-445a-aa47-658423d9defd.png",
+        "github": "https://github.com/chrisrw300/javascript-quiz",
+        "depoloyed": "https://chrisrw300.github.io/javascript-quiz/"
+    },
+    {
+        "id": 7,
+        "name": "Weather Dashboard",
+        "image": "https://user-images.githubusercontent.com/65309756/156873940-8e13e6c8-4feb-49a6-af16-66892e30d981.png",
+        "github": "https://github.com/chrisrw300/weather-dashboard",
+        "deployed": "https://chrisrw300.github.io/weather-dashboard/"
+    },
+    {
+        "id": 8,
+        "name": "Readme Generator",
+        "image": "https://user-images.githubusercontent.com/65309756/103018015-bb9f5f80-4501-11eb-96b3-72e1ee672cc3.png",
+        "github": "https://github.com/chrisrw300/readme-generator",
+        "deployed": "https://github.com/chrisrw300/readme-generator"
+    },
+    {
+        "id": 9,
+        "name": "Iterative Ideas",
+        "image": "https://user-images.githubusercontent.com/65309756/156873622-a597b360-95e5-42d6-bdad-fb84166c3e89.png",
+        "github": "https://github.com/chrisrw300/iterative-ideas",
+        "deployed": "https://iterative-ideas-blog.herokuapp.com/"
+    },
+    {
+        "id": 10,
+        "name": "Note Master",
+        "image": "https://user-images.githubusercontent.com/65309756/156873633-42d64ed4-d5d7-4c4a-91dc-ac9aa19bbf47.png",
+        "github": "https://github.com/chrisrw300/note-master-app",
+        "deployed": "https://note-master-app.herokuapp.com/"
+    },
+    {
+        "id": 11,
+        "name": "Mamasita Empanadas",
+        "image": "https://raw.githubusercontent.com/Richardflores009/Mamasita-Empanadas/main/client/public/screenshot2.JPG",
+        "github": "https://github.com/Richardflores009/Mamasita-Empanadas",
+        "deployed": "https://mamasita-empanadas.herokuapp.com//"
+    }
+    
+]

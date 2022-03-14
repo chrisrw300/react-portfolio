@@ -37,7 +37,17 @@ const Header = ({currentPage, handlePageChange}) => (
         <li class="icons">
           <a href="mailto:chrisrw300@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
         </li>
-
+      </ul>
+      <hr />
+      <ul class="skills">
+        <li>
+            <i className="icon devicon-html5-plain-wordmark"></i>
+            <i className="icon devicon-css3-plain-wordmark"></i>
+            <i className="icon devicon-javascript-plain"></i>
+            <i className="icon devicon-react-original-wordmark"></i>
+            <i className="icon devicon-bootstrap-plain-wordmark"></i>
+            <i className="icon devicon-jquery-plain-wordmark"></i>
+        </li>
       </ul>
     </nav>
     

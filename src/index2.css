@@ -450,3 +450,100 @@ main {
     /* || Footer */
     footer a {font-size: 7vw;}
   }
+
+
+
+  /* MOST RECENT, ORIGNAL LAYOUT*/
+  /* || Default */
+:root {
+    --primary: #FB5607;
+    --secondary: #158664;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  nav {
+    background: var(--primary);
+    width: 30%;
+    height: 100%;
+    position: fixed;
+    text-align: center;
+    color: white;
+  }
+  
+  nav img {
+    width: 75%;
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 50%;
+    border: thick dotted white;
+  }
+  
+  nav h2 {
+    padding: 5px 0;
+    width: 100%;
+  }
+  
+  .icons {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  main {
+    margin-left: 30%;
+    padding: 10px;
+    width: 70%;
+  }
+  
+  .portfolio-wrapper {
+    height: 100%;
+  }
+  
+  .portfolio-wrapper h2 {
+    text-align: center;
+    padding: 5px 0;
+  }
+  
+  .portfolio-wrapper h3 {
+    padding: 5px 0;
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  .ps1, .ps2 {
+    width: 33.3%;
+    float: left;
+    border-right: thick dotted var(--primary);
+  }
+  
+  .portfolio-section {
+    height: 100vh;
+  }
+  
+  .cards-wrapper { 
+  }
+  
+  .cards {
+    margin: 15px auto;
+    width: 75%;
+    text-align: center;
+    background: var(--primary);
+    border-radius: 5px;
+  }
+  
+  .cards img {
+    width: 100%;
+    padding: 5px;
+    object-fit: contain;
+    height: 100px;
+  }

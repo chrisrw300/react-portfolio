@@ -1,7 +1,10 @@
 /* || Default */
 :root {
-  --primary: #FB5607;
-  --secondary: #158664;
+  /* --primary: #FB5607; */
+  --primary: #F96900;
+  --secondary: #50B9A2;
+  --off-white: #FFF3EB;
+  --white: white;
 }
 
 * {
@@ -14,6 +17,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
+  background: var(--off-white);
 }
 
 nav {
@@ -22,7 +26,7 @@ nav {
   height: 100%;
   position: fixed;
   text-align: center;
-  color: white;
+  color: var(--off-white);
 }
 
 nav img {
@@ -30,7 +34,7 @@ nav img {
   margin: 10px auto;
   padding: 5px;
   border-radius: 50%;
-  border: thick dotted white;
+  border: thick dotted var(--off-white);
 }
 
 nav h2 {
@@ -38,9 +42,39 @@ nav h2 {
   width: 100%;
 }
 
+hr {
+  width: 80%;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skills li {
+  display: flex;
+  justify-content: space-evenly;
+  width: 75%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.skills li i {
+  font-size: 25px;
+}
+
 .icons {
   display: inline;
   margin: 0 15px;
+  font-size: 25px;
+}
+
+.icons a {
+  color: var(--off-white);
+  transition: 0.3s;
+}
+
+.icons a:hover {
+  color: black;
 }
 
 main {
@@ -54,6 +88,7 @@ main {
 }
 
 .portfolio-wrapper h2 {
+  color: var(--primary);
   text-align: center;
   padding: 5px 0;
 }
@@ -64,30 +99,45 @@ main {
   text-align: center;
 }
 
-.ps1, .ps2 {
-  width: 33.3%;
-  float: left;
-  border-right: thick dotted var(--primary);
-}
-
 .portfolio-section {
-  height: 100vh;
 }
 
 .cards-wrapper { 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cards-body p {
+  margin: 10px auto;
+  color: var(--primary);
+}
+
+.cards-body a {
+  color: var(--primary);
 }
 
 .cards {
-  margin: 15px auto;
-  width: 75%;
+  margin: 10px;
+  width: 31%;
   text-align: center;
-  background: var(--primary);
+  background: var(--white);
   border-radius: 5px;
+  box-shadow: 0 5px 10px grey;
+  transition: 0.3s;
+}
+
+.cards:hover {
+  transform: translateY(-5px);
 }
 
 .cards img {
-  width: 100%;
-  padding: 5px;
-  object-fit: contain;
-  height: 100px;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  border-radius: 5px;
+  object-fit: cover;
+  object-position: top;
+  width: 200px;
+  height: 200px;
 }
